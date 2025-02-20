@@ -10,6 +10,7 @@ const FormChucVu = (props: any) => {
     useModel('danhmuc.chucvu');
   const title = props?.title ?? '';
 
+  
   useEffect(() => {
     if (!visibleForm) resetFieldsForm(form);
     else if (record?._id) form.setFieldsValue(record);

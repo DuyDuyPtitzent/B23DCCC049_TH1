@@ -31,9 +31,9 @@
 		hideInMenu: true,
 	},
 	{
-		path: '/random-user',
-		name: 'RandomUser',
-		component: './RandomUser',
+		path: '/oantuti',
+		name: 'Oẳn tù tì',
+		component: './OanTuTi',
 		icon: 'ArrowsAltOutlined',
 	},
 
